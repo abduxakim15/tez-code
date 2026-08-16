@@ -1,0 +1,346 @@
+{
+  "services": [
+    {
+      "id": "s1",
+      "name": "Soch olish",
+      "price": 30000,
+      "duration": 30
+    },
+    {
+      "id": "s2",
+      "name": "Soqol olish",
+      "price": 20000,
+      "duration": 20
+    },
+    {
+      "id": "s3",
+      "name": "Soch + Soqol",
+      "price": 45000,
+      "duration": 45
+    },
+    {
+      "id": "s4",
+      "name": "Bolalar uchun soch olish",
+      "price": 20000,
+      "duration": 20
+    },
+    {
+      "id": "s5",
+      "name": "Ustara bilan qirtishlash",
+      "price": 25000,
+      "duration": 25
+    },
+    {
+      "id": "s6",
+      "name": "Soch bo'yash",
+      "price": 60000,
+      "duration": 50
+    },
+    {
+      "id": "s7",
+      "name": "Yuz uchun SPA parvarish",
+      "price": 40000,
+      "duration": 35
+    },
+    {
+      "id": "s8",
+      "name": "VIP xizmat (soch + soqol + SPA)",
+      "price": 90000,
+      "duration": 70
+    }
+  ],
+  "staff": [
+    {
+      "id": "u1",
+      "name": "Aziz"
+    },
+    {
+      "id": "u2",
+      "name": "Bobur"
+    },
+    {
+      "id": "u3",
+      "name": "Sardor"
+    },
+    {
+      "id": "u4",
+      "name": "Jaloliddin"
+    },
+    {
+      "id": "u5",
+      "name": "Farrux"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv-1",
+      "name": "Shampun (500ml flakon)",
+      "qty": 8,
+      "low": 3
+    },
+    {
+      "id": "inv-2",
+      "name": "Soqol kremi",
+      "qty": 5,
+      "low": 2
+    },
+    {
+      "id": "inv-3",
+      "name": "Ustara pichoqlari (dona)",
+      "qty": 20,
+      "low": 6
+    },
+    {
+      "id": "inv-4",
+      "name": "Sochiq",
+      "qty": 15,
+      "low": 5
+    },
+    {
+      "id": "inv-5",
+      "name": "Losyon",
+      "qty": 6,
+      "low": 2
+    },
+    {
+      "id": "inv-6",
+      "name": "Bir martalik salfetka (o'ram)",
+      "qty": 4,
+      "low": 2
+    },
+    {
+      "id": "inv-7",
+      "name": "Soch bo'yog'i (turli ranglar)",
+      "qty": 10,
+      "low": 3
+    },
+    {
+      "id": "inv-8",
+      "name": "SPA niqob (yuz uchun)",
+      "qty": 7,
+      "low": 2
+    },
+    {
+      "id": "inv-9",
+      "name": "Dezinfeksiyalovchi sprey",
+      "qty": 9,
+      "low": 3
+    },
+    {
+      "id": "inv-10",
+      "name": "Bir martalik qalpoqcha",
+      "qty": 12,
+      "low": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1",
+      "ticketNo": 1,
+      "customerName": "Jasur Karimov",
+      "phone": "901234567",
+      "serviceId": "s3",
+      "staffId": "u2",
+      "date": "2026-08-16",
+      "time": "09:30",
+      "status": "tugadi",
+      "paid": true,
+      "method": "naqd"
+    },
+    {
+      "id": "ord-2",
+      "ticketNo": 2,
+      "customerName": "Otabek Yusupov",
+      "phone": "901112233",
+      "serviceId": "s1",
+      "staffId": "u1",
+      "date": "2026-08-16",
+      "time": "10:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "karta"
+    },
+    {
+      "id": "ord-3",
+      "ticketNo": 3,
+      "customerName": "Nodir Aliyev",
+      "phone": "933334455",
+      "serviceId": "s2",
+      "staffId": "u3",
+      "date": "2026-08-16",
+      "time": "10:30",
+      "status": "kelmadi",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-4",
+      "ticketNo": 4,
+      "customerName": "Sherzod Nabiyev",
+      "phone": "977778899",
+      "serviceId": "s5",
+      "staffId": "u2",
+      "date": "2026-08-16",
+      "time": "11:00",
+      "status": "navbatda",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-5",
+      "ticketNo": 5,
+      "customerName": "Diyor Rashidov",
+      "phone": "955556677",
+      "serviceId": "s4",
+      "staffId": "u1",
+      "date": "2026-08-15",
+      "time": "15:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "naqd"
+    },
+    {
+      "id": "ord-6",
+      "ticketNo": 6,
+      "customerName": "Elyor Tosh",
+      "phone": "944445566",
+      "serviceId": "s3",
+      "staffId": "u3",
+      "date": "2026-08-13",
+      "time": "13:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "karta"
+    },
+    {
+      "id": "ord-7",
+      "ticketNo": 7,
+      "customerName": "Jamshid Ochilov",
+      "phone": "998887766",
+      "serviceId": "s6",
+      "staffId": "u4",
+      "date": "2026-08-16",
+      "time": "11:30",
+      "status": "navbatda",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-8",
+      "ticketNo": 8,
+      "customerName": "Ravshan Xolmatov",
+      "phone": "912223344",
+      "serviceId": "s8",
+      "staffId": "u5",
+      "date": "2026-08-16",
+      "time": "12:00",
+      "status": "navbatda",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-9",
+      "ticketNo": 100,
+      "customerName": "Bekzod Aliyev",
+      "phone": "931000548",
+      "serviceId": "s1",
+      "staffId": "u1",
+      "date": "2026-08-12",
+      "time": "13:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "naqd"
+    },
+    {
+      "id": "ord-10",
+      "ticketNo": 101,
+      "customerName": "Farrux Ergashev",
+      "phone": "931000822",
+      "serviceId": "s3",
+      "staffId": "u2",
+      "date": "2026-08-10",
+      "time": "15:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "karta"
+    },
+    {
+      "id": "ord-11",
+      "ticketNo": 102,
+      "customerName": "Shoxrux Yoldoshev",
+      "phone": "931001096",
+      "serviceId": "s5",
+      "staffId": "u3",
+      "date": "2026-08-08",
+      "time": "17:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "naqd"
+    },
+    {
+      "id": "ord-12",
+      "ticketNo": 103,
+      "customerName": "Timur Nazarov",
+      "phone": "931001370",
+      "serviceId": "s7",
+      "staffId": "u4",
+      "date": "2026-08-06",
+      "time": "10:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "karta"
+    },
+    {
+      "id": "ord-13",
+      "ticketNo": 104,
+      "customerName": "Ilhom Qodirov",
+      "phone": "931001644",
+      "serviceId": "s2",
+      "staffId": "u5",
+      "date": "2026-08-04",
+      "time": "12:00",
+      "status": "kelmadi",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-14",
+      "ticketNo": 105,
+      "customerName": "Davron Mirzayev",
+      "phone": "931001918",
+      "serviceId": "s4",
+      "staffId": "u1",
+      "date": "2026-08-02",
+      "time": "14:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "naqd"
+    },
+    {
+      "id": "ord-15",
+      "ticketNo": 106,
+      "customerName": "Anvar Saidov",
+      "phone": "931002192",
+      "serviceId": "s6",
+      "staffId": "u2",
+      "date": "2026-07-31",
+      "time": "16:00",
+      "status": "bekor",
+      "paid": false,
+      "method": null
+    },
+    {
+      "id": "ord-16",
+      "ticketNo": 107,
+      "customerName": "Bahodir Tursunov",
+      "phone": "931002466",
+      "serviceId": "s8",
+      "staffId": "u3",
+      "date": "2026-07-29",
+      "time": "09:00",
+      "status": "tugadi",
+      "paid": true,
+      "method": "karta"
+    }
+  ]
+}
